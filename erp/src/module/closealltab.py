@@ -1,0 +1,1 @@
+# encoding:utf-8def closealltab(d):    d.find_element_by_id("iframe-up-nav").click()    d.find_element_by_xpath(".//*[@id='iframe-area']/div[1]/div[2]/div[3]/ul/li[1]/a").click()    d.implicitly_wait(10)
